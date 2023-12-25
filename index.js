@@ -18,10 +18,14 @@ const dbPool = mysql.createPool({
   // user: "root",
   // password: "password",
   // database: "cse3100",
-  host:"ruetalumni.mysql.database.azure.com",
-  user:"ruetalumni",
-  password:"CharliE173.",
-  database:"cse3100",
+  // host:"ruetalumni.mysql.database.azure.com",
+  // user:"ruetalumni",
+  // password:"CharliE173.",
+  // database:"cse3100",
+  host: "sql12.freemysqlhosting.net",
+  user: "sql12672642",
+  password: "CharliE173.",
+  database: "sql12672642",
 });
 
 app.get("/", (req, res) => {
